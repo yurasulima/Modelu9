@@ -33,6 +33,8 @@ public class Main {
 
         myLinkedList.add("test1");
         myLinkedList.add("test2");
+        myLinkedList.add("test3");
+        myLinkedList.remove(2);
         System.out.println("myLinkedList index 0 = " + myLinkedList.get(0));
         System.out.println("myLinkedList size = " + myLinkedList.size());
         System.out.println("Clearing.....");

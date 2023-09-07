@@ -52,7 +52,7 @@ public class MyHashMap<K, V> {
     }
 
     public void clear() {
-        buckets = new Node[16];
+        buckets = new Node[DEFAULT_CAPACITY];
         size = 0;
     }
 
